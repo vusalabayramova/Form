@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+  body{
+      background-color: rgba(255, 99, 71, 0.5);
+  }
+  form{
+      width: 40%;
+      background-color: #fff;
+      border-radius: 8px;
+      margin: 80px auto;
+      padding: 20px 0;
+      height: 750px;
+      text-align: center;
+    }
+ .head{
+     font-size: 30px;
+     background-color: rgba(255, 99, 71, 0.2);
+     width: 90%;
+     margin-left: 26px;
+     padding: 10px 0;
+     border-radius: 5px ;
+     }
+.input{
+    padding: 10px 0 10px 10px;
+    border: 2px solid #a9a9a9;
+    border-radius: 5px;
+    width: 80%;
+    outline: none;
+   }
+   select{
+    padding: 10px 0 10px 10px ;
+    border: 2px solid #a9a9a9;
+    border-radius: 5px;
+    width: 80%;
+    outline: none;  
+   }
+.text{
+    margin-left: 50px;
+    margin-bottom: 6px;
+    text-align: left;
+    }
+    button{
+        margin-top: 25px;
+        padding: 15px 30px ;
+        border-radius: 5px;
+        width: 40%;
+        font-size: 20px;
+        background-color: #f7cac9;
+        border: 2px solid #f7cac9;
+        cursor: pointer;
+        outline: none;
+    }
+    #radio{
+        text-align: left; 
+        margin-left: 50px; 
+    }
+</style>
+</head>
+<body>
+    <form action="" >
+ <p class="head">Online Registration</p>
+ <p class="text">First Name</p>
+ <input type="text" class="input" required placeholder="First Name">
+ <p class="text">Last Name</p>
+ <input type="text" class="input"  required placeholder="Last Name">
+ <p class="text">Email Address</p>
+ <input type="email" class="input"  required placeholder="Email Address">  
+ <p class="text">Company (if applicable)</p>
+ <select name="" id="" >
+      <option value="">Choose</option>
+      <option value="">XXXXXXX</option>
+      <option value="">YYYYYYY</option>
+      <option value="">ZZZZZZZ</option>
+ </select>
+ <p class="text">Physical Address</p>
+ <input type="text" class="input"  required placeholder="Physical Address">  
+ <p class="text">Date of Birth</p>
+ <input type="date" class="input" > 
+ <p class="text">Gender</p> 
+ <div id="radio">
+ <span>Male</span>  
+ <input type="radio" name="gender" class="radio">
+ <span style="margin-left: 10px;">Female</span>  
+ <input type="radio" name="gender" class="radio">
+ </div>
+ <div><button>Submit</button></div>
+ </form>
+</body>
+</html>
